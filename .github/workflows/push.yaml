@@ -47,7 +47,7 @@ jobs:
            push: true
            tags: |
              ${{ secrets.DOCKERHUB_USERNAME }}/js-frontend-ci-practice:latest
-           ${{ secrets.DOCKERHUB_USERNAME }}/js-frontend-ci-practice:{{ github.sha }}
+             ${{ secrets.DOCKERHUB_USERNAME }}/js-frontend-ci-practice:{{ github.sha }}
 
 
 
