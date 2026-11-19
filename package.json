@@ -1,0 +1,11 @@
+{
+  "name": "js-frontend-ci-practice",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "lint": "eslint src/"
+  },
+  "devDependencies": {
+    "eslint": "^9.15.0"
+  }
+}
